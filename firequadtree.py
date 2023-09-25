@@ -212,8 +212,7 @@ class QuadtreeNode:
                 if len(self.neighbours[dir]) == 0:
                     self.runtimeData.deltaT -= self.runtimeData.temperature * self.concentration * (transmitSpeed*deltaTime)
         else:
-            sample = random.sample( self.quadrants, len(self.quadrants) ) # shuffle to avoid patterns arising
-            for quadrant in sample:
+            for quadrant in self.quadrants:
                 quadrant.Simulate(deltaTime)
 
     def Apply(self):
