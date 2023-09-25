@@ -8,9 +8,9 @@ The quadtree structure is randomised when the script is ran.
 - [Vector2D.py](https://github.com/oxi-dev0/vector2d.py/) (`pip3 install vector2d.py`)
 
 ## Controls
-Click - Ignite a cell
+Click - Ignite a cell  
 Tab - Switch visual mode
 
-### Visual Modes
-Temperature - Cells become red as they approach the ignition temperature
+#### Visual Modes
+Temperature - Cells become red as they approach the ignition temperature  
 Fuel - Cells become less green as they burn fuel
